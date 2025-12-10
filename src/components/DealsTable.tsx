@@ -20,7 +20,7 @@ export function DealsTable() {
     }
 
     const handleAdd = (newDeal: Partial<Deal>) => {
-        if (newDeal.sponsor && newDeal.asset) {
+        if (newDeal.sponsor && newDeal.assets) {
             addDeal({
                 id: `DL-${Math.floor(Math.random() * 1000)}`,
                 status: "Negotiating",
@@ -67,7 +67,7 @@ export function DealsTable() {
                             <tr key={deal.id} className="border-b transition-colors hover:bg-muted/50">
                                 <td className="p-4 align-middle font-medium">{deal.id}</td>
                                 <td className="p-4 align-middle">{deal.sponsor}</td>
-                                <td className="p-4 align-middle">{deal.asset}</td>
+                                <td className="p-4 align-middle">{deal.assets?.join(", ")}</td>
                                 <td className="p-4 align-middle text-xs text-muted-foreground">
                                     <div>{deal.start}</div>
                                     <div>{deal.end}</div>
