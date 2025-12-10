@@ -15,13 +15,14 @@ export function InventoryChart({ year = "2026" }: { year?: string }) {
     }
 
     // Derive status logic
+    // Derive status logic
     const soldCount = inventory.filter(i =>
-        deals.some(d => d.asset === i.name && d.status === 'Signed' && isDealActiveInYear(d, year))
+        deals.some(d => d.assets?.includes(i.name) && d.status === 'Signed' && isDealActiveInYear(d, year))
     ).length
 
     const pendingCount = inventory.filter(i => {
-        const isSold = deals.some(d => d.asset === i.name && d.status === 'Signed' && isDealActiveInYear(d, year))
-        const isPending = deals.some(d => d.asset === i.name && d.status === 'Negotiating' && isDealActiveInYear(d, year))
+        const isSold = deals.some(d => d.assets?.includes(i.name) && d.status === 'Signed' && isDealActiveInYear(d, year))
+        const isPending = deals.some(d => d.assets?.includes(i.name) && d.status === 'Negotiating' && isDealActiveInYear(d, year))
         return !isSold && isPending
     }).length
 
