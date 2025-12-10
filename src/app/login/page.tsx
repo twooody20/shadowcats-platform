@@ -1,7 +1,7 @@
 "use client"
 
-import { useActionState } from "react"
-import { authenticate } from "./actions" // make sure this import path is correct relative to page.tsx
+import { useFormState } from "react-dom"
+import { authenticate } from "./actions"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter }
 import { AlertCircle } from "lucide-react"
 
 export default function LoginPage() {
-    const [errorMessage, formAction, isPending] = useActionState(authenticate, undefined)
+    const [errorMessage, formAction] = useFormState(authenticate, undefined)
 
     return (
         <div className="flex h-screen w-full items-center justify-center bg-muted/40">
@@ -39,8 +39,8 @@ export default function LoginPage() {
                         )}
                     </CardContent>
                     <CardFooter>
-                        <Button className="w-full" disabled={isPending}>
-                            {isPending ? "Signing in..." : "Sign in"}
+                        <Button className="w-full">
+                            Sign in
                         </Button>
                     </CardFooter>
                 </form>
