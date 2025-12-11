@@ -1,6 +1,6 @@
 "use client"
 
-import { useFormState } from "react-dom"
+import { useState } from "react"
 import { authenticate } from "./actions"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -9,7 +9,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter }
 import { AlertCircle } from "lucide-react"
 
 export default function LoginPage() {
-    const [errorMessage, formAction] = useFormState(authenticate, undefined)
+    const [errorMessage, setErrorMessage] = useState<string | null>(null)
+    const [isPending, setIsPending] = useState(false)
+
+    async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+        event.preventDefault()
+        setIsPending(true)
+        setErrorMessage(null)
+
+        const formData = new FormData(event.currentTarget)
+        const result = await authenticate(undefined, formData)
+
+        if (result) {
+            setErrorMessage(result)
+            setIsPending(false)
+        }
+    }
 
     return (
         <div className="flex h-screen w-full items-center justify-center bg-muted/40">
@@ -20,7 +35,7 @@ export default function LoginPage() {
                         Enter your email below to login to your account.
                     </CardDescription>
                 </CardHeader>
-                <form action={formAction}>
+                <form onSubmit={handleSubmit}>
                     <CardContent className="grid gap-4">
                         <div className="grid gap-2">
                             <Label htmlFor="email">Email</Label>
@@ -39,8 +54,8 @@ export default function LoginPage() {
                         )}
                     </CardContent>
                     <CardFooter>
-                        <Button className="w-full">
-                            Sign in
+                        <Button className="w-full" disabled={isPending}>
+                            {isPending ? "Signing in..." : "Sign in"}
                         </Button>
                     </CardFooter>
                 </form>
