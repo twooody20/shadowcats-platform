@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 const USE_DATABASE = process.env.USE_DATABASE === 'true';
 
 // --- Local File Handlers ---
-const DB_PATH = path.join(process.cwd(), 'src/data/db.json');
+const DB_PATH = path.join(process.cwd(), 'data/db.json');
 
 const readLocalDb = () => {
     if (!fs.existsSync(DB_PATH)) {

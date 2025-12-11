@@ -76,7 +76,7 @@ export async function GET() {
     // Let's do Real Tables.
 
     // Read JSON
-    const dbPath = path.join(process.cwd(), 'src/data/db.json');
+    const dbPath = path.join(process.cwd(), 'data/db.json');
     const dbJson = JSON.parse(fs.readFileSync(dbPath, 'utf-8'));
 
     // Insert Users
