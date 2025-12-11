@@ -17,7 +17,9 @@ export default function Dashboard() {
 
   // Add some baseline revenue (ticket sales etc) to make it look realistic as per mock
   // Assuming mock was $1.2M+, let's make sure it's substantial
-  const displayRevenue = totalRevenue + 2500000
+  // Add some baseline revenue (ticket sales etc) to make it look realistic as per mock
+  // Assuming mock was $1.2M+, let's make sure it's substantial
+  const displayRevenue = totalRevenue
 
   const soldInventory = inventory.filter(i => i.status === 'sold').length
   const totalInventoryCount = inventory.length
