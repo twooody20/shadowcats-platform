@@ -1,0 +1,909 @@
+{
+  "categories": [
+    "7x20 Outfield Signage ",
+    "3x10 Outfield Signage",
+    "5x8 Outside Fence",
+    "3x4 Concord Signage"
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@shadowcats.com",
+      "password": "password123",
+      "role": "admin"
+    }
+  ],
+  "seasonTicketHolders": [
+    {
+      "id": "4",
+      "name": "Old Timer",
+      "contact": "Grandpa Joe",
+      "phone": "555-0104",
+      "email": "joe@aol.com",
+      "status": "Past",
+      "section": "101",
+      "seatCount": "2",
+      "value": "$3,000",
+      "year": "2025"
+    },
+    {
+      "id": "dtljej466",
+      "name": "Dennis ",
+      "contact": "Primary Contact",
+      "phone": "",
+      "email": "",
+      "status": "Active",
+      "section": "",
+      "seatCount": "2",
+      "value": "$480",
+      "year": "2026",
+      "subtotal": "$428.51",
+      "tax": "$36.58",
+      "ccFee": "$13.92",
+      "ticketFee": "$0.99",
+      "paymentMethod": "Credit Card"
+    }
+  ],
+  "singleGameSales": [],
+  "inventory": [
+    {
+      "id": "ucfktbg6g",
+      "name": "Outfield Left 1",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "First Texas National Bank",
+      "value": "$5,000"
+    },
+    {
+      "id": "lm0tof0uk",
+      "name": "Outfield Left 2",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "7hsvh1r4p",
+      "name": "Outfield Left 3",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "Texoma Power",
+      "value": "$5,000"
+    },
+    {
+      "id": "762bfz9dr",
+      "name": "Outfield Left 4",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "3j9fck4x8",
+      "name": "Outfield Left 5",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "oyn2w17mo",
+      "name": "Outfield Left 6",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "9mhdncpgk",
+      "name": "Outfield Left 7",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "43sv101fi",
+      "name": "Outfield Left 8",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "knwhcbi9v",
+      "name": "Outfield Left 9",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "guu912a5a",
+      "name": "Outfield Left 10",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "JOE BROWN LAW",
+      "value": "$5,000"
+    },
+    {
+      "id": "np8s9s4c1",
+      "name": "Outfield Left 11",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "x2j9ohiuk",
+      "name": "Outfield Left 12",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "hw2zx7403",
+      "name": "Outfield Left 13",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "ALEMAN ROOFING",
+      "value": "$5,000"
+    },
+    {
+      "id": "ld4ugvve0",
+      "name": "Outfield Left 14",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "ALEMAN ROOFING",
+      "value": "$5,000"
+    },
+    {
+      "id": "0y25670kp",
+      "name": "Outfield Left 15",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "Jake Shockley StateFarm",
+      "value": "$5,000"
+    },
+    {
+      "id": "x124kt77h",
+      "name": "Outfield Left 16",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "Jake Shockley StateFarm",
+      "value": "$5,000"
+    },
+    {
+      "id": "a5t31fu0s",
+      "name": "Outfield Left 17",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "Vanguard GMC",
+      "value": "$5,000"
+    },
+    {
+      "id": "lz1qy3ors",
+      "name": "Outfield Left 18",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "vtrt1tghm",
+      "name": "Outfield Left 19",
+      "category": "7x20 Outfield Signage ",
+      "status": "sold",
+      "sponsor": "Austin College ",
+      "value": "$5,000"
+    },
+    {
+      "id": "w467j3xaj",
+      "name": "Outfield Left 20",
+      "category": "7x20 Outfield Signage ",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$5,000"
+    },
+    {
+      "id": "xv6xpz0ew",
+      "name": "Right Field 1",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "9rgbskgth",
+      "name": "Right Field 2",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "mg5eq8vc6",
+      "name": "Right Field 3",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "euk1x0u56",
+      "name": "Right Field 4",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "xt7mfrl5g",
+      "name": "Right Field 5",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "yta6n8kyk",
+      "name": "Right Field 6",
+      "category": "3x10 Outfield Signage",
+      "status": "sold",
+      "sponsor": "Buffalo Wild Wings",
+      "value": "$2,500"
+    },
+    {
+      "id": "pct5mc6t4",
+      "name": "Right Field 7",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "6khvdn9w0",
+      "name": "Right Field 8",
+      "category": "3x10 Outfield Signage",
+      "status": "available",
+      "sponsor": "-",
+      "value": "$2,500"
+    },
+    {
+      "id": "vwrm7gsok",
+      "name": "5x8 Outside Fence 1",
+      "category": "5x8 Outside Fence",
+      "status": "sold",
+      "sponsor": "BANK OF TEXAS",
+      "value": "$2,500"
+    },
+    {
+      "id": "sp27c7wg7",
+      "name": "5x8 Outside Fence 2",
+      "category": "5x8 Outside Fence",
+      "status": "sold",
+      "sponsor": "Wall To Wall Cleaning Services",
+      "value": "$2,500"
+    },
+    {
+      "id": "8il599cf7",
+      "name": "3x4 Concord Signage",
+      "category": "3x4 Concord Signage",
+      "status": "sold",
+      "sponsor": "LM CONSULTING",
+      "value": "$1,000"
+    }
+  ],
+  "sponsors": [
+    {
+      "id": "rc8od1gv0",
+      "status": "Active",
+      "phone": "",
+      "name": "First Texas National Bank",
+      "contact": "Will Bain",
+      "derivedValue": 0,
+      "email": "WBAIN@FIRSTTEXASNB.COM"
+    },
+    {
+      "id": "85jg1j3bl",
+      "status": "Active",
+      "phone": "",
+      "name": "Buffalo Wild Wings",
+      "derivedValue": 0,
+      "email": "PATRICK KING",
+      "contact": "PATRICK KING"
+    },
+    {
+      "id": "ksotgmyed",
+      "status": "Active",
+      "phone": "",
+      "name": "Austin College ",
+      "derivedValue": 0,
+      "contact": "HEIDI RUSHING"
+    },
+    {
+      "id": "esaj7wskp",
+      "status": "Active",
+      "phone": "(903) 821-8376",
+      "name": "Jake Shockley StateFarm",
+      "derivedValue": 0,
+      "contact": "RACHEL STONE",
+      "email": "RACHEL@JAKEINSURESTEXOMA.COM"
+    },
+    {
+      "id": "b9k1chsz9",
+      "status": "Active",
+      "phone": "(903) 892-1561",
+      "name": "Vanguard GMC",
+      "derivedValue": 5000,
+      "contact": "Craig Campbell",
+      "email": "craig.campbell@vanguardautogroup.comROUP.COM"
+    },
+    {
+      "id": "dwk4jww8d",
+      "status": "Active",
+      "phone": "",
+      "name": "ALEMAN ROOFING",
+      "contact": "TONY ALEMAN",
+      "email": "TIMMYALEMAN@HOTMAIL.COM"
+    },
+    {
+      "id": "nhzepr2dn",
+      "status": "Active",
+      "phone": "",
+      "name": "JOE BROWN LAW"
+    },
+    {
+      "id": "3m12n1ysa",
+      "status": "Active",
+      "phone": "(469) 708-7663",
+      "name": "MAJOR LEAGUE ROOFING",
+      "contact": "JASON HAMILTON",
+      "email": "JASON@MLROOF.COM"
+    },
+    {
+      "id": "9scjmtojw",
+      "status": "Active",
+      "phone": "(903) 813-5105",
+      "name": "BANK OF TEXAS",
+      "contact": "AMY GEORGE",
+      "email": "AMY.GEORGE@BANKOFTEXAS.COM"
+    },
+    {
+      "id": "ugj6qj7q3",
+      "status": "Active",
+      "phone": "",
+      "name": "LM CONSULTING"
+    },
+    {
+      "id": "v9m1zqdtz",
+      "status": "Active",
+      "phone": "",
+      "name": "FREDDYS SHERMAN",
+      "contact": "CHARLES"
+    },
+    {
+      "id": "n5jgjbmu5",
+      "status": "Active",
+      "phone": "",
+      "name": "FIRST TEXOMA NATIONAL BANK",
+      "contact": "KATIE QUINN"
+    },
+    {
+      "id": "qzc5sartk",
+      "status": "Active",
+      "phone": "",
+      "name": "LONE STAR PAINTING",
+      "contact": "JR"
+    },
+    {
+      "id": "fgtelveg3",
+      "status": "Active",
+      "phone": "",
+      "name": "ONE GRANDE CENTER",
+      "contact": "MANDY"
+    },
+    {
+      "id": "wc1qysjbe",
+      "status": "Active",
+      "phone": "",
+      "name": "RUSTCO WELDING",
+      "contact": "RUSTY EVANS",
+      "email": "RUSTY@RUSTCOWELDING.NET"
+    },
+    {
+      "id": "ovelompuv",
+      "status": "Active",
+      "phone": "",
+      "name": "PARAGON REALTORS",
+      "contact": "CHRISTOPHER MANIET",
+      "email": "CHRISTOPHER@PARAGONREALTORS.COM"
+    },
+    {
+      "id": "q00is92e5",
+      "status": "Active",
+      "phone": "",
+      "name": "BEN E KEITH",
+      "contact": "ANGELA HUNT",
+      "email": "ANGELAHUNT@BENEKEITH.COM"
+    },
+    {
+      "id": "pi6s3312h",
+      "status": "Active",
+      "phone": "",
+      "name": "Texoma Power",
+      "contact": "Jason Short"
+    },
+    {
+      "id": "nczewmx5p",
+      "status": "Active",
+      "phone": "903-815-1431",
+      "name": "Wall To Wall Cleaning Services",
+      "email": "jason@walltowallcleaningservices.com",
+      "contact": "Jason Wall"
+    }
+  ],
+  "deals": [
+    {
+      "id": "DL-217",
+      "status": "Signed",
+      "budget": "$5,000",
+      "actualValue": "5000",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "assets": [
+        "Outfield Left 1"
+      ],
+      "sponsor": "First Texas National Bank",
+      "processingFee": "$145.30",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": " #2025-1141"
+    },
+    {
+      "id": "DL-897",
+      "status": "Signed",
+      "budget": "$10,000",
+      "actualValue": "16667",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "assets": [
+        "Outfield Left 15",
+        "Outfield Left 16"
+      ],
+      "sponsor": "Jake Shockley StateFarm",
+      "processingFee": "$483.64",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2025-1153"
+    },
+    {
+      "id": "DL-316",
+      "status": "Signed",
+      "budget": "$5,000",
+      "actualValue": "4250",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "assets": [
+        "Outfield Left 19"
+      ],
+      "sponsor": "Austin College ",
+      "processingFee": "$123.55",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2025-1154"
+    },
+    {
+      "id": "DL-468",
+      "status": "Signed",
+      "budget": "$5,000",
+      "actualValue": "5000",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "assets": [
+        "Outfield Left 17"
+      ],
+      "sponsor": "Vanguard GMC",
+      "processingFee": "$145.30",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2025-12071"
+    },
+    {
+      "id": "DL-800",
+      "status": "Signed",
+      "budget": "$10,000",
+      "actualValue": "10000",
+      "paymentMethod": "Check",
+      "paymentStatus": "Pending",
+      "assets": [
+        "Outfield Left 13",
+        "Outfield Left 14"
+      ],
+      "sponsor": "ALEMAN ROOFING",
+      "processingFee": "$0",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2025-1152"
+    },
+    {
+      "id": "DL-533",
+      "status": "Negotiating",
+      "budget": "$5,000",
+      "actualValue": "5000",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Pending",
+      "assets": [
+        "Outfield Left 10"
+      ],
+      "sponsor": "JOE BROWN LAW",
+      "processingFee": "$145.30",
+      "start": "2026-01-01",
+      "end": "2026-12-31"
+    },
+    {
+      "id": "DL-128",
+      "status": "Signed",
+      "budget": "$2,500",
+      "actualValue": "2000",
+      "paymentMethod": "Other",
+      "paymentStatus": "Paid",
+      "assets": [
+        "Right Field 6"
+      ],
+      "sponsor": "Buffalo Wild Wings",
+      "processingFee": "0",
+      "start": "2026-01-01",
+      "end": "2026-12-31"
+    },
+    {
+      "id": "DL-876",
+      "status": "Signed",
+      "budget": "$2,500",
+      "actualValue": "2350",
+      "paymentMethod": "Other",
+      "paymentStatus": "Paid",
+      "assets": [
+        "5x8 Outside Fence 1"
+      ],
+      "processingFee": "$0",
+      "sponsor": "BANK OF TEXAS",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": " #2025-11054"
+    },
+    {
+      "id": "DL-24",
+      "status": "Signed",
+      "budget": "$5,000",
+      "actualValue": "3000",
+      "paymentMethod": "Check",
+      "paymentStatus": "Pending",
+      "assets": [
+        "Outfield Left 3"
+      ],
+      "processingFee": "$0",
+      "sponsor": "Texoma Power",
+      "invoiceId": "#2025-1155"
+    },
+    {
+      "id": "DL-488",
+      "status": "Signed",
+      "budget": "$2,500",
+      "actualValue": "$2,500",
+      "paymentMethod": "Check",
+      "paymentStatus": "Pending",
+      "assets": [
+        "5x8 Outside Fence 2"
+      ],
+      "processingFee": "$0",
+      "sponsor": "Wall To Wall Cleaning Services",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2025-1151"
+    },
+    {
+      "id": "DL-970",
+      "status": "Signed",
+      "budget": "$1,000",
+      "actualValue": "$1,000",
+      "paymentMethod": "Check",
+      "paymentStatus": "Pending",
+      "assets": [
+        "3x4 Concord Signage"
+      ],
+      "processingFee": "$0",
+      "sponsor": "LM CONSULTING",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "invoiceId": "#2026-01011"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "date": "2026-06-12",
+      "time": "7:05 PM",
+      "opponent": "vs. Rebels",
+      "location": "Home",
+      "status": "Upcoming"
+    },
+    {
+      "id": "2",
+      "date": "2026-06-13",
+      "time": "6:05 PM",
+      "opponent": "vs. Rebels",
+      "location": "Home",
+      "status": "Upcoming"
+    },
+    {
+      "id": "3",
+      "date": "2026-06-14",
+      "time": "1:05 PM",
+      "opponent": "vs. Rebels",
+      "location": "Home",
+      "status": "Upcoming"
+    },
+    {
+      "id": "4",
+      "date": "2026-06-16",
+      "time": "7:05 PM",
+      "opponent": "@ Knights",
+      "location": "Away",
+      "status": "Upcoming"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "1",
+      "time": "2:00 PM",
+      "activity": "Staff Arrival",
+      "assigned": "All Staff",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "time": "3:30 PM",
+      "activity": "Gates Open Check",
+      "assigned": "Operations",
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "time": "4:00 PM",
+      "activity": "Batting Practice (Home)",
+      "assigned": "Field Crew",
+      "status": "Pending"
+    },
+    {
+      "id": "4",
+      "time": "5:00 PM",
+      "activity": "Gates Open",
+      "assigned": "Ticketing / Security",
+      "status": "Pending"
+    },
+    {
+      "id": "5",
+      "time": "6:30 PM",
+      "activity": "Pregame Ceremonies",
+      "assigned": "Marketing",
+      "status": "Pending"
+    },
+    {
+      "id": "6",
+      "time": "7:05 PM",
+      "activity": "First Pitch",
+      "assigned": "-",
+      "status": "Pending"
+    }
+  ],
+  "staff": [
+    {
+      "id": "1",
+      "name": "Sarah Connor",
+      "role": "Director of Ops",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Kyle Reese",
+      "role": "Field Manager",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "John Smith",
+      "role": "Security Lead",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Jane Doe",
+      "role": "Ticketing Manager",
+      "status": "Off"
+    }
+  ],
+  "players": [
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Ryan Sessions",
+      "id": "m6htg70v2"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Tanner Trout",
+      "id": "bqbw0t29y"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "John Langehennig",
+      "id": "jv681hi71"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Connor Cox",
+      "id": "h9ip41cja"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Andrew Grooters",
+      "id": "2hds6hi0p"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Easton Ford",
+      "id": "z8nqy73uo"
+    },
+    {
+      "seasonType": "Full Season",
+      "paymentType": "Deposit",
+      "paymentMethod": "Credit Card",
+      "status": "Active",
+      "notes": "",
+      "amountDue": "$516",
+      "fees": "$4.79",
+      "paidAmount": "$155",
+      "balance": "$361",
+      "name": "Austin Parker",
+      "id": "jrtodhtds"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-001",
+      "category": "GM Salary",
+      "budget": "60000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-002",
+      "category": "Accounting",
+      "budget": "12000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-003",
+      "category": "Promotions",
+      "budget": "10000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-004",
+      "category": "Bleacher Loan",
+      "budget": "48000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-005",
+      "category": "Suite Container Rent",
+      "budget": "13000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-006",
+      "category": "Hotel Expense",
+      "budget": "18000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-007",
+      "category": "Charter",
+      "budget": "45000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "EXP-008",
+      "category": "Game Day Operations",
+      "budget": "0",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "odzvxkf4h",
+      "category": "Test Expense",
+      "budget": "0",
+      "actual": "0",
+      "year": "2026"
+    }
+  ],
+  "revenues": [
+    {
+      "id": "rev-002",
+      "category": "Player Fees",
+      "budget": "19000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "rev-003",
+      "category": "Merchandise",
+      "budget": "25000",
+      "actual": "0",
+      "year": "2026"
+    },
+    {
+      "id": "rev-004",
+      "category": "Food & Beverage",
+      "budget": "35000",
+      "actual": "0",
+      "year": "2026"
+    }
+  ]
+}
